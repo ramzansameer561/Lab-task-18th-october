@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x;
+	cout<<"please enter the number whose table you want to construct: ";
+	cin>>x;
+	for(int i=1; i<=10; i++){
+		cout<< x <<"*"<< i << "="<< x*i<<endl;
+	}
+	return 0;
+}

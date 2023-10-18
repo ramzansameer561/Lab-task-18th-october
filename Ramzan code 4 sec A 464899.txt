@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x, firstnumber;
+	cout<<"please enter the amount of no. you want for the fibonnaci sequence";
+	cin>>x;
+	cout<<"please eneter the first starting no. of the sequence";
+	cin>>firstnumber;
+	int a = firstnumber;
+	int b = firstnumber + 1;
+	cout<<"The Fibbonnaci sequence is: \n";
+	cout<<a<<" "<<b<<" ";
+	for(int i=2; i<x; i++){
+		int c = a+b;
+		
+	cout<<c<<" ";
+	a=b;
+	b=c;
+	}
+	return 0;
+}
